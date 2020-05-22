@@ -1,0 +1,95 @@
+.App-header {
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* font-size: calc(4px + 2vmin); */
+}
+
+.Container {
+	width: 40%;
+	min-height: 100%;
+	padding: 20px;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	text-align: center;
+	/* background-color: #282c34; */
+}
+
+.Bio {
+	margin-bottom: 30px;
+}
+
+.Bio h3 {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.Bio p {
+	font-size: 18px;
+	color: #222222;
+	margin-top: 5px;
+}
+
+.Skills {
+	margin-bottom: 30px;
+}
+
+.Skills h3 {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.Skills ul {
+	list-style-type: none;
+}
+
+.Skills ul li {
+	display: inline-block;
+	padding: 5px 15px;
+	margin-right: 20px;
+	background: #efefef;
+	border-radius: 5px;
+}
+
+Links {
+	margin-bottom: 30px;
+}
+
+Links h3 {
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.Links ul {
+	list-style-type: none;
+}
+
+.Links ul li {
+	display: inline-block;
+	padding: 5px 15px;
+	margin-right: 20px;
+}
+
+.Links ul li a {
+	color: orangered;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Links ul li a:hover {
+	color: #02075d;
+}
+
+.Container-func {
+	width: 100%;
+	min-height: 100%;
+	padding: 15px;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	text-align: center;
+}

@@ -1,0 +1,51 @@
+.App {
+	text-align: center;
+	background-color: #282c34;
+	min-height: 100vh;
+}
+
+.App-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.heading {
+	margin-bottom: 50px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.Container {
+	width: 100%;
+	text-align: center;
+}
+
+.Btn {
+	width: 100px;
+	margin: 10px 20px;
+	padding: 5px 10px;
+	color: #282c34;
+	border: 2px solid gray;
+	border-radius: 20px;
+	font-size: 20px;
+	background-color: lightgray;
+}
+
+.Text {
+	font-size: 40px;
+	margin: 0 20px;
+	font-weight: 500;
+}
+
+.inputField {
+	width: 115px;
+	border: 1px solid gray;
+	background-color: lavenderblush;
+	color: #282c34;
+	height: 22px;
+	font-weight: 900;
+}
